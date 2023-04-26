@@ -29,6 +29,8 @@ class WindowWidget(QWidget):
         self.setLayout(hLayout)
 
         self.setGeometry(400, 200, 400, 200)
+        self.setMinimumSize(400, 200)
+        self.setMaximumSize(400, 200)
         self.setWindowTitle("waterlogged")
         self.show()
 
