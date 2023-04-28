@@ -36,7 +36,7 @@ class WindowWidget(QWidget):
 
         # Tray Functionality 
         self.tray_icon = QSystemTrayIcon(self)
-        self.tray_icon.setIcon(QIcon('assets/drop.png'))
+        self.tray_icon.setIcon(QIcon('../assets/drop.png'))
         self.tray_icon.setToolTip('waterlogged')
         self.tray_icon.activated.connect(self.restore)
 
